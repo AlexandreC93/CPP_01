@@ -17,8 +17,6 @@ int main(int ac, char **av) {
         else
             N = 5;
     }
-    // std::cout << name << std::endl;
-    // std::cout << N << std::endl;
     Zombie *zomb = zombieHorde(N, name);
     for (size_t i = 0; i < N; i++) {
         zomb[i].announce();
@@ -26,5 +24,3 @@ int main(int ac, char **av) {
     delete [] zomb;
     return 0;
 }
-
-// relire le sujet

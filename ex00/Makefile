@@ -9,7 +9,7 @@ all: $(NAME)
 $(NAME): 
 	@printf "Compiling $(NAME)\n"
 	@ $(CC) $(FLAGS) main.cpp randomChump.cpp Zombie.cpp newZombie.cpp -o $(NAME)
-	@printf "Exec ready.\n"
+	@printf "Exec ready\n"
 
 clean:
 	@$(RM) $(NAME)

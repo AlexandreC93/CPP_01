@@ -13,11 +13,11 @@ $(NAME):
 
 clean:
 	@$(RM) $(NAME)
-	@printf "Exec removed.\n"
+	@printf "Exec removed\n"
 
 fclean:
 	@$(RM) $(NAME)
-	@printf "Exec removed.\n"
+	@printf "Exec removed\n"
 
 re: clean all
 

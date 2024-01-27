@@ -22,4 +22,3 @@ fclean:
 re: clean all
 
 .PHONY: all clean re
-#tout revoir, tout changer

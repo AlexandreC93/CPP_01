@@ -14,5 +14,3 @@ void    HumanA::attack( void ) const {
         std::cout << _name << " cant attack without weapon" << std::endl;
     }
 }
-
-//changer txt
